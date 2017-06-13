@@ -16,14 +16,14 @@ namespace Pr3
             long l = i++;
             byte by;
             by = 1;
-/*
+
            int k=(int)d;
             bool c = b;
             double f = d;
             long m = i;
             byte t = by; 
 
-            // Keep the console window open in debug mode.*/
+            // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
