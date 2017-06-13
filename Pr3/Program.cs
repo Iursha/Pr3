@@ -27,6 +27,8 @@ namespace Pr3
 
             Console.WriteLine(f);
 
+            //откуда я должен черпать информацию о том, как конвертировать массив байт в целое число, если этого нет в лекционном материале??? как и работы с объектами, укпаковкой и распаковкой?
+
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
