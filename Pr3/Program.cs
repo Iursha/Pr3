@@ -11,13 +11,19 @@ namespace Pr3
         static void Main(string[] args)
         {
             int i=3;
-            bool b;
-            b = true;
+            bool b = new bool();
             double d = i;
             long l = i++;
             byte by;
-            
-            // Keep the console window open in debug mode.
+            by = 1;
+/*
+           int k=(int)d;
+            bool c = b;
+            double f = d;
+            long m = i;
+            byte t = by; 
+
+            // Keep the console window open in debug mode.*/
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
