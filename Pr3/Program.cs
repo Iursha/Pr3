@@ -19,7 +19,7 @@ namespace Pr3
 
            int k=(int)d;
             bool c = b;
-            double f = d;
+            object f = d;
             long m = i;
             byte t = by; 
 
