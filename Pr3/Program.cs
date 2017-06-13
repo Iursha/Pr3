@@ -21,7 +21,11 @@ namespace Pr3
             bool c = b;
             object f = d;
             long m = i;
-            byte t = by; 
+            byte t = by;
+
+            f = i + k + d - i; 
+
+            Console.WriteLine(f);
 
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
