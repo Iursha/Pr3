@@ -37,7 +37,7 @@ namespace Pr3
                 Array.Reverse(bytes);
 
             int g = BitConverter.ToInt32(bytes, 0);
-            Console.WriteLine("int: {0}", i);
+            Console.WriteLine("int: {0}", g);
             // Output: int: 25
 
             Console.WriteLine("Введите входное значение  ");
@@ -46,12 +46,16 @@ namespace Pr3
                 Console.Write(vhod_znach);
                 Console.Read();
 
-           /* Console.WriteLine("Введите входное значение  ");
-            string s = Console.ReadLine();
-            int vhod = Convert.ToInt16(s);
-            Console.Write(vhod_znach);
-            Console.Read();*/
-
+                        string input = "Hello World!";
+            char[] values = input.ToCharArray();
+            foreach (char letter in values)
+            {
+                // Get the integral value of the character.
+                int value = Convert.ToInt32(letter);
+                // Convert the decimal value to a hexadecimal value in string form.
+                string hexOutput = String.Format("{0:X}", value);
+                Console.WriteLine("Hexadecimal value of {0} is {1}", letter, hexOutput);
+            }
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
