@@ -1,0 +1,6 @@
+c:\users\murde\documents\visual studio 2017\Projects\Pr3\Pr3\bin\Debug\Pr3.exe.config
+c:\users\murde\documents\visual studio 2017\Projects\Pr3\Pr3\bin\Debug\Pr3.exe
+c:\users\murde\documents\visual studio 2017\Projects\Pr3\Pr3\bin\Debug\Pr3.pdb
+c:\users\murde\documents\visual studio 2017\Projects\Pr3\Pr3\obj\Debug\Pr3.csprojResolveAssemblyReference.cache
+c:\users\murde\documents\visual studio 2017\Projects\Pr3\Pr3\obj\Debug\Pr3.exe
+c:\users\murde\documents\visual studio 2017\Projects\Pr3\Pr3\obj\Debug\Pr3.pdb
